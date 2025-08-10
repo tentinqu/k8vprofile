@@ -2,6 +2,7 @@
 
 ## Overview
 This project demonstrates a **highly available**, **fault-tolerant** deployment of a containerized web application (Tomcat + MySQL + RabbitMQ + Memcached) on Kubernetes using kOps on AWS.
+![Architecture Diagram](screenshots/1.png)
 
 ## Features
 - Kubernetes cluster provisioned with kOps
@@ -71,3 +72,4 @@ kops delete cluster --name=kubeapp.harshitch.xyz --state=s3://kopsbucket23021 --
 ```
 Architecture
 https://via.placeholder.com/600x400?text=K8s+Architecture+Diagram
+
